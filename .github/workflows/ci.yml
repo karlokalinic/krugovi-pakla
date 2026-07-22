@@ -1,0 +1,30 @@
+name: Provjera projekta
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  provjera:
+    name: ${{ matrix.os }} / Node 22.23.1
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    env:
+      NEXT_TELEMETRY_DISABLED: 1
+    steps:
+      - name: Dohvati repozitorij
+        uses: actions/checkout@v4
+      - name: Postavi Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.23.1
+          cache: npm
+      - name: Instaliraj ovisnosti
+        run: npm ci
+      - name: Lint, tipovi i produkcijski Webpack build
+        run: npm run check

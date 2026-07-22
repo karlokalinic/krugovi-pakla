@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.env
+.env.local
+.env.*.local
+coverage
+*.log
+data/runtime-circles.json
+.DS_Store
+*.tsbuildinfo
+.tools
+repair-backups
+repair-logs

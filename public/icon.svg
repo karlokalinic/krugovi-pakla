@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="18" fill="#050505"/>
+  <g fill="none" stroke="#b9364d" stroke-width="2">
+    <circle cx="64" cy="64" r="50"/><circle cx="64" cy="64" r="41"/><circle cx="64" cy="64" r="32"/><circle cx="64" cy="64" r="23"/><circle cx="64" cy="64" r="14"/>
+  </g>
+  <text x="64" y="73" text-anchor="middle" fill="#eee8dc" font-size="31" font-family="Georgia">IX</text>
+</svg>

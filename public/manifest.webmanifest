@@ -1,0 +1,10 @@
+{
+  "name": "Krugovi pakla",
+  "short_name": "Pakao IX",
+  "description": "Interaktivni hrvatski atlas Danteovih krugova pakla.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

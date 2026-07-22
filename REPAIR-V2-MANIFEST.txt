@@ -1,0 +1,22 @@
+KRUGOVI PAKLA 1.0.2 - POPRAVAK WINDOWS INSTALACIJE
+
+Ispravljeni uzroci:
+- PowerShell 5.1 ConvertFrom-Json ne može obraditi packages[""] iz npm lockfilea.
+- 419 resolved URL-ova pokazivalo je na privatni Artifactory host.
+- npm stderr bio je prekinut nakon prve retke zbog ErrorActionPreference=Stop.
+- npm registry nije bio eksplicitno prikvačen na registry.npmjs.org.
+- obnova lockfilea brisala je postojeću datoteku prije uspješne zamjene.
+
+Provjere paketa:
+- package.json: valjan JSON
+- package-lock.json: lockfileVersion 3
+- Next: 16.2.10
+- React: 19.2.7
+- resolved zapisi: 419
+- strani/private resolved hostovi: 0
+- ugrađeni Node lock-inspector: PASS
+- ESLint izvornog projekta nakon izmjena instalacijske skripte: PASS
+
+Napomena:
+Windows UAC i puni Windows PowerShell 5.1 tijek moraju se izvršiti na Windowsu.
+Skripta je spremljena kao UTF-8 BOM + CRLF i cilja PowerShell 5.1.
