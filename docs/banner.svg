@@ -1,0 +1,23 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#05070B"/>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1270" cy="250" r="240" fill="#7B2CBF" fill-opacity="0.28"/>
+  <circle cx="338" cy="665" r="310" fill="#FF6B35" fill-opacity="0.2"/>
+  <path d="M340 230C450 140 650 120 780 220C906 316 930 486 840 602C760 702 618 734 500 690C386 648 236 574 220 426C208 322 254 268 340 230Z" stroke="#F6D8B1" stroke-width="8" stroke-opacity="0.65"/>
+  <path d="M536 228C660 188 852 224 920 320C979 403 960 518 864 590C775 656 652 648 560 618C466 586 386 528 360 440C332 352 394 270 536 228Z" stroke="#C6A96A" stroke-width="6" stroke-opacity="0.6"/>
+  <path d="M620 282H1010" stroke="#F9E5B6" stroke-width="4" opacity="0.7"/>
+  <path d="M680 370H960" stroke="#F9E5B6" stroke-width="4" opacity="0.7"/>
+  <path d="M620 458H1020" stroke="#F9E5B6" stroke-width="4" opacity="0.7"/>
+  <path d="M620 546H960" stroke="#F9E5B6" stroke-width="4" opacity="0.7"/>
+  <text x="160" y="300" fill="#F7E7C2" font-family="Segoe UI, Arial, sans-serif" font-size="92" font-weight="700">KRUGOVI PAKLA</text>
+  <text x="160" y="380" fill="#D4A373" font-family="Segoe UI, Arial, sans-serif" font-size="34" letter-spacing="8">INTERACTIVE WEB-ART EXPERIENCE</text>
+  <text x="160" y="454" fill="#E9DCC8" font-family="Segoe UI, Arial, sans-serif" font-size="30">Procedural 3D descent • authoring studio • cinematic narrative</text>
+  <rect x="160" y="500" width="250" height="60" rx="30" fill="#F27D3D"/>
+  <text x="232" y="539" fill="#080808" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Explore the experience</text>
+  <defs>
+    <linearGradient id="bg" x1="180" y1="80" x2="1430" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#161A24"/>
+      <stop offset="1" stop-color="#030405"/>
+    </linearGradient>
+  </defs>
+</svg>

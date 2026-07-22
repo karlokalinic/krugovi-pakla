@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Krugovi Pakla is an immersive web-art experience exploring Dante's Inferno through interactive 3D storytelling." />
+    <title>Krugovi Pakla</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #040506;
+        --panel: rgba(255,255,255,0.06);
+        --text: #f3e7cf;
+        --muted: #b8a582;
+        --accent: #f27d3d;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
+        background: radial-gradient(circle at top left, #1a1b2b 0%, var(--bg) 55%, #020202 100%);
+        color: var(--text);
+      }
+      main {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 40px 24px 80px;
+      }
+      .hero {
+        background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 26px;
+        overflow: hidden;
+        box-shadow: 0 20px 80px rgba(0,0,0,0.35);
+      }
+      .hero img { width: 100%; display: block; }
+      .content {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 24px;
+        margin-top: 24px;
+      }
+      .card {
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 20px;
+        padding: 24px;
+      }
+      h1, h2 { margin-top: 0; }
+      p { line-height: 1.7; color: var(--muted); }
+      .pill {
+        display: inline-block;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(242,125,61,0.16);
+        color: #ffd3b3;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+      a.button {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 12px 18px;
+        border-radius: 999px;
+        background: var(--accent);
+        color: #111;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      ul { padding-left: 18px; color: var(--muted); }
+      @media (max-width: 800px) {
+        .content { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <img src="banner.svg" alt="Krugovi Pakla banner" />
+      </section>
+      <section class="content">
+        <article class="card">
+          <h1>Krugovi Pakla</h1>
+          <p>A cinematic, immersive web-art experience built around Dante's Inferno, translated into a procedural 3D descent with narrative depth, atmospheric audio, and an authoring studio.</p>
+          <div>
+            <span class="pill">Next.js</span>
+            <span class="pill">Three.js</span>
+            <span class="pill">TypeScript</span>
+            <span class="pill">Accessible</span>
+          </div>
+          <a class="button" href="https://github.com/karlokalinic/krugovi-pakla">View source on GitHub</a>
+        </article>
+        <article class="card">
+          <h2>What the project includes</h2>
+          <ul>
+            <li>Interactive descent through the nine circles</li>
+            <li>Procedural 3D environments and atmospheric sound</li>
+            <li>Protected authoring experience for publishing and editing</li>
+            <li>Professional structure ready for public showcase</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
